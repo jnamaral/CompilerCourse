@@ -81,17 +81,17 @@
 	<li>Example of Using SSA to Simplify Code</li>
       </ol>
 
-      <h4> class="greentext">Intermediate Representation</h4>
+      <h4 class="greentext">Intermediate Representation</h4>
       <ol>
 	<li>A Very Brief Look at LLVM Intermediate Representation</li>
       </ol>
 
-      <h4> class="greentext">Solving a Data-Flow Analysis Problem</h4>
+      <h4 class="greentext">Solving a Data-Flow Analysis Problem</h4>
       <ol>
 	<li>Data Flow Analysis to Discover Very Busy Expressions</li>
       </ol>
 
-      <h4> class="greentext">Register Allocation</h4>
+      <h4 class="greentext">Register Allocation</h4>
       <ol>
 	<li>Register Allocation</li>
 	<li>Live-In and Live-Out in CFG</li>
@@ -99,7 +99,7 @@
 	<li>Briggs' Heuristic Optimistic Algorithm</li>
       </ol>
 
-      <h4> class="greentext">Data Dependence in Loops</h4>
+      <h4 class="greentext">Data Dependence in Loops</h4>
       <ol>
 	<li>Loop-Carried Data Dependence</li>
 	<li>Loop Normalization</li>
@@ -107,7 +107,7 @@
 	<li>Distance/Direction Dependence Vectors</li>
       </ol>
 
-      <h4> class="greentext">Loop Restructuring</h4>
+      <h4 class="greentext">Loop Restructuring</h4>
       <ol>
 	<li>Loop Unswitching</li>
 	<li>Loop Peeling</li>
@@ -119,7 +119,7 @@
 	<li>Loop Interchanging</li>
       </ol>
 
-      <h4> class="greentext">Reference Analysis</h4>
+      <h4 class="greentext">Reference Analysis</h4>
       <ol>
 	<li>Andersen's VS Steengard's Analysis</li>
 	<li>Possible VS definite points to relations</li>
@@ -130,12 +130,12 @@
 
       <h3 class="greentext"> Potential Topics for Module 2<h3>
 
-      <h4> class="greentext">Register allocation integrated with instruction scheduling</h4>
+      <h4 class="greentext">Register allocation integrated with instruction scheduling</h4>
       <ul>
 	<li> Shows how to specify a problem and design an heuristic algorithm </li>
       </ul>
 
-      <h4> class="greentext">Software Pipelining</h4>
+      <h4 class="greentext">Software Pipelining</h4>
       <ul>
 	<li> Framework for scheduling multiple iterations of a loop</li>
 	<li> Module Scheduling </li>
@@ -144,7 +144,7 @@
 	<li> Predicated Execution</li>
       </ul>
 
-      <h4> class="greentext">Context-Sensitive Pointer Analysis</h4>
+      <h4 class="greentext">Context-Sensitive Pointer Analysis</h4>
       <ul>
 	<li>Hendren's formulation of context-sensitive pointer analysis </li>
 	<li>Field Sensitive Analysis</li>
@@ -153,7 +153,7 @@
 	<li>Heap Cloning and Heap Specialization</li>
       </ul>
 
-      <h4> class="greentext">Global Value Numbering</h4>
+      <h4 class="greentext">Global Value Numbering</h4>
       <ul>
 	<li>GVN is an important application of SSA </li>
 	<li>Sparse Predicated GVN</li>
@@ -165,55 +165,50 @@
 	<li>&Phi;-Predication</li>
       </ul>
       
-      <h4> class="greentext"> Inter-Procedural Finite Distributive Subset (IFDS) applied to the Thread Divergence Problem</h4>
+      <h4 class="greentext"> Inter-Procedural Finite Distributive Subset (IFDS) applied to the Thread Divergence Problem</h4>
       <ul>
 	<li>Illustrates how a new analysis can be used to detect data divergence and to restructure loops to obtain better performance both in CPUs and GPUs </li>
       </ul>
 
-      <h4> class="greentext">Profile-Guided Optimization (or Profile Directed Feedback)</h4>
+      <h4 class="greentext">Profile-Guided Optimization (or Profile Directed Feedback)</h4>
       <ul>
 	<li>How to perform PGO </li>
 	<li>How to combine profiles from multiple workloads </li>
 	<li>How to cluster workloads based on decisions made by a PGO compiler </li>
       </ul>
 
-      <h4> class="greentext">Dense matrix multiplication code generation</h4>
+      <h4 class="greentext">Dense matrix multiplication code generation</h4>
       <ul>
 	<li>Covers the techniques of blocking and packing used to generate fast code for dense matrix multiplication in numerical library
         <li>Reviews the implementation of blocking, packing, and code generation in a compiler</li>
         <li> A modular packing solution that can be automatically applied to many algorithms</li>
       </ul>
-      <h4> class="greentext">Code generation for Scalar Vector Extensions</h4>
+      <h4 class="greentext">Code generation for Scalar Vector Extensions</h4>
       <ul>
 	<li>Review of predicated execution</li>
 	<li>Active-lane consolidation to improve utilization of vector units</li>
       </ul>
-      <h4> class="greentext">Thread-Level Speculation and Transactional Memory</h4>
+      <h4 class="greentext">Thread-Level Speculation and Transactional Memory</h4>
       <ul>
 	<li>How to safely parallelize loops that have a may dependence</li>
 	<li>Optimistic synchronization</li>
       </ul>
-      <h4> class="greentext">Partitioned Global Address Space Programming</h4>
+      <h4 class="greentext">Partitioned Global Address Space Programming</h4>
       <ul>
 	<li>Programming models for large parallel system with multiple memory regions</li>
 	<li>Work partitioning in a multithreaded system</li>
       </ul>
-      <h4> class="greentext">Mining for instruction patterns in large programs</h4>
+      <h4 class="greentext">Mining for instruction patterns in large programs</h4>
       <ul>
 	<li>Enables the optimnization of patterns that may appear in many places in a program
      but may not be hot anywhere </li>
       </ul>
-      <h4> class="greentext">Evaluating Address Register Assignment and Offset Assignment Algorithms</h4>
+      <h4 class="greentext">Evaluating Address Register Assignment and Offset Assignment Algorithms</h4>
       <ul>
 	<li>The mapping of address registers to memory locations in Digital Signal Processors
      is harder than the allocation of registers in processors </li>
 	<li>This shows the importance of a clear problem formulation to find a good algorithm
      to solve a problem </li>
-      </ul>
-            <h4> class="greentext"></h4>
-      <ul>
-	<li> </li>
-	<li> </li>
       </ul>
   </div>
   </body>
