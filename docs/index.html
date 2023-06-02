@@ -130,9 +130,10 @@
 
       <h3 class="greentext"> Potential Topics for Module 2<h3>
 
-      <h4 class="greentext">Register allocation integrated with instruction scheduling</h4>
+      <h4 class="greentext">Register Allocation Integrated with Instruction Scheduling</h4>
       <ul>
-	<li> Shows how to specify a problem and design an heuristic algorithm </li>
+	<li> The Minimum Register Instruction Scheduling problem formulation</li>
+	<li> How to create an heuristic solution for a precise problem formulation</li>
       </ul>
 
       <h4 class="greentext">Software Pipelining</h4>
@@ -165,24 +166,35 @@
 	<li>&Phi;-Predication</li>
       </ul>
       
-      <h4 class="greentext"> Inter-Procedural Finite Distributive Subset (IFDS) applied to the Thread Divergence Problem</h4>
+      <h4 class="greentext"> Inter-Procedural Finite Distributive Subset (IFDS) Applied to Code Generation for Heterogeneous Computers</h4>
       <ul>
-	<li>Illustrates how a new analysis can be used to detect data divergence and to restructure loops to obtain better performance both in CPUs and GPUs </li>
+	<li>Inter-Procedural Finite Distributive Subset (IFDS) Analysis</li>
+	<li>Taint Analysis</li>
+	<li>Arithmetic Control Form</li>
+	<li>Iteration Point Difference Analysis (IPDA)</li>
+	<li>Resolving May-Dependences with IPDA</li>
+	<li>Loop Transformations Enabled by IPDA</li>
+	<li>Thread Divergency Analysis</li>
+	<li>Data Divergency Analysis</li>
       </ul>
 
       <h4 class="greentext">Profile-Guided Optimization (or Profile Directed Feedback)</h4>
       <ul>
 	<li>How to perform PGO </li>
+	<li>Common issues with profiling </li>
 	<li>How to combine profiles from multiple workloads </li>
 	<li>How to cluster workloads based on decisions made by a PGO compiler </li>
       </ul>
 
       <h4 class="greentext">Dense matrix multiplication code generation</h4>
       <ul>
-	<li>Covers the techniques of blocking and packing used to generate fast code for dense matrix multiplication in numerical library
-        <li>Reviews the implementation of blocking, packing, and code generation in a compiler</li>
-        <li> A modular packing solution that can be automatically applied to many algorithms</li>
+	<li>Data blocking and packing used to generate fast code for dense matrix multiplication in numerical library</li>
+	<li>Pattern-recognition of matrix code in LLVM</li>
+	<li>Implementation of blocking, packing, and code generation in a compiler for matrix multiplication</li>
+	<li>Code generation targetting Matrix-Multiply Assist in POWER 10</li>
+        <li> A modular packing solution that can be automatically applied to many algorithms (not only matrix multiplication)</li>
       </ul>
+      
       <h4 class="greentext">Code generation for Scalar Vector Extensions</h4>
       <ul>
 	<li>Review of predicated execution</li>
